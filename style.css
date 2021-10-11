@@ -13,7 +13,6 @@ h1
 {
     font-size:650%;
     color:#FFFFFF;
-
 }
 .bg_hero
 {
@@ -70,6 +69,17 @@ main
 height:100%;
 width:70%;
 /*background-color: brown;*/
+}
+.header_box1
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer_box1
+{
+    display:flex;
+    flex-direction: row;
 }
 .box1_image
 {
@@ -173,10 +183,47 @@ header
 .footer
 {
     display:flex;
-    width:100%;
+    width:80%;
+    margin-left: 280px;
+
     height: 150px;
-    background-color: aqua;
+    /*background-color: aqua;*/
     margin-bottom: 50px;
+}
+.footer_text1
+{
+    width:50%;
+    padding-left: 0;
+    margin-left: 0;
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding-bottom: 25%;
+}
+.copyright
+{
+    margin-top: 100px;
+}
+.footer_text2and3
+{
+    font-size: 18px;
+    display:flex;
+    width:50%;
+}
+.footer_text2
+{
+    width:50%;
+    margin-left: 0;
+    
+}
+.footer_text2and3 ul
+{
+    display:block;
+}
+.footer_text3
+{
+    width:50%;
+    margin-left: 0;
 }
 button
 {
@@ -201,23 +248,9 @@ p
 }
 .number1
 {
-    position: absolute;
-left: 0%;
-right: 83.58%;
-top: 5.28%;
-bottom: 61.39%;
-
-font-family: Gilroy;
-font-style: normal;
-font-weight: bold;
-font-size: 240px;
-line-height: 240px;
-/* identical to box height, or 100% */
-
-
-color: #FFFFFF;
-
-opacity: 0.1;
+    position:relative;
+    float:left;
+    top:0;
 }
 .bg_hero2
 {
@@ -232,44 +265,47 @@ background: linear-gradient(180deg, rgba(11, 29, 38, 0) 1.55%, #0B1D26 61.98%);
 }
 .number2
 {
-    position: absolute;
-    left: 46.51%;
-    right: 34.68%;
-    top: 5.28%;
-    bottom: 61.39%;
-    
-    font-family: Gilroy;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 240px;
-    line-height: 240px;
-    /* identical to box height, or 100% */
-    
-    
-    color: #FFFFFF;
-    
-    opacity: 0.1;
+    position:relative;
+    float:right;
+    top:0;
 }
 
 .number3
 {
-    position: absolute;
-left: 0%;
-right: 81.12%;
-top: 5.28%;
-bottom: 61.39%;
-
-font-family: Gilroy;
-font-style: normal;
-font-weight: bold;
-font-size: 240px;
-line-height: 240px;
-/* identical to box height, or 100% */
-
-
-color: #FFFFFF;
-
-opacity: 0.1;
+    position:relative;
+    float:left;
+    top:0;
 }
+.headline
+{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 950px;
+height: 310px;
+left: 539px;
+top: 287px;
+}
+.part1
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.part2
+{
+
+}
+.part3
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
 
 
